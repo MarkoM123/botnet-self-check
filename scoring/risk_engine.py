@@ -1,3 +1,5 @@
+# scoring/risk_engine.py
+
 SEVERITY_WEIGHTS = {
     "low": 5,
     "medium": 15,
@@ -41,6 +43,17 @@ def risk_level(score: int) -> str:
 
 
 def calculate_risk(findings: list) -> dict:
+    """
+    findings = [
+        {
+            "category": "network",
+            "severity": "high",
+            "description": "Repeated outbound connections to rare IP",
+            "confidence": 0.9
+        }
+    ]
+    """
+
     total_score = 0
     categories_present = set()
     reasons = []

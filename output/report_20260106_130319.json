@@ -1,0 +1,2603 @@
+{
+  "timestamp": "2026-01-06T12:03:19.392791Z",
+  "findings": [
+    {
+      "category": "network",
+      "severity": "high",
+      "description": "Process AvastSvc.exe (PID 3024) opened 150 outbound connections",
+      "confidence": 0.8
+    },
+    {
+      "category": "network",
+      "severity": "high",
+      "description": "Process urbanvpnserv.exe (PID 3760) opened 3500 outbound connections",
+      "confidence": 0.8
+    },
+    {
+      "category": "network",
+      "severity": "high",
+      "description": "Process chrome.exe (PID 3356) opened 390 outbound connections",
+      "confidence": 0.8
+    },
+    {
+      "category": "network",
+      "severity": "high",
+      "description": "Process Viber.exe (PID 3976) opened 270 outbound connections",
+      "confidence": 0.8
+    },
+    {
+      "category": "network",
+      "severity": "high",
+      "description": "Process ace_engine.exe (PID 12140) opened 60 outbound connections",
+      "confidence": 0.8
+    },
+    {
+      "category": "network",
+      "severity": "high",
+      "description": "Process aswToolsSvc.exe (PID 2984) opened 30 outbound connections",
+      "confidence": 0.8
+    },
+    {
+      "category": "network",
+      "severity": "high",
+      "description": "Process svchost.exe (PID 3376) opened 30 outbound connections",
+      "confidence": 0.8
+    },
+    {
+      "category": "dns",
+      "severity": "medium",
+      "description": "Rare DNS domain queried: analytics.avcdn.net",
+      "confidence": 0.6
+    },
+    {
+      "category": "dns",
+      "severity": "medium",
+      "description": "Rare DNS domain queried: ping.urban-vpn.com",
+      "confidence": 0.6
+    },
+    {
+      "category": "dns",
+      "severity": "medium",
+      "description": "Rare DNS domain queried: 1957745448.rsc.cdn77.org",
+      "confidence": 0.6
+    },
+    {
+      "category": "dns",
+      "severity": "medium",
+      "description": "Rare DNS domain queried: ip-info.ff.avast.com",
+      "confidence": 0.6
+    },
+    {
+      "category": "dns",
+      "severity": "medium",
+      "description": "Rare DNS domain queried: ipfs.drawgaze.online",
+      "confidence": 0.6
+    },
+    {
+      "category": "dns",
+      "severity": "medium",
+      "description": "Rare DNS domain queried: stun.l.google.com",
+      "confidence": 0.6
+    },
+    {
+      "category": "process",
+      "severity": "high",
+      "description": "Process System Idle Process (PID 0) has no parent process",
+      "confidence": 0.8
+    },
+    {
+      "category": "process",
+      "severity": "high",
+      "description": "Process System (PID 4) has no parent process",
+      "confidence": 0.8
+    },
+    {
+      "category": "process",
+      "severity": "medium",
+      "description": "Process browser_assistant.exe (PID 1480) running from suspicious path: C:\\Users\\Korisnik\\AppData\\Local\\Programs\\Opera\\assistant\\browser_assistant.exe",
+      "confidence": 0.7
+    },
+    {
+      "category": "process",
+      "severity": "medium",
+      "description": "Process Viber.exe (PID 3976) running from suspicious path: C:\\Users\\Korisnik\\AppData\\Local\\Viber\\Viber.exe",
+      "confidence": 0.7
+    },
+    {
+      "category": "process",
+      "severity": "medium",
+      "description": "Process WebexHost.exe (PID 8596) running from suspicious path: C:\\Users\\Korisnik\\AppData\\Local\\WebEx\\WebexHost.exe",
+      "confidence": 0.7
+    },
+    {
+      "category": "process",
+      "severity": "medium",
+      "description": "Process browser_assistant.exe (PID 10940) running from suspicious path: C:\\Users\\Korisnik\\AppData\\Local\\Programs\\Opera\\assistant\\browser_assistant.exe",
+      "confidence": 0.7
+    },
+    {
+      "category": "process",
+      "severity": "medium",
+      "description": "Process ace_update.exe (PID 11284) running from suspicious path: C:\\Users\\Korisnik\\AppData\\Roaming\\ACEStream\\updater\\ace_update.exe",
+      "confidence": 0.7
+    },
+    {
+      "category": "process",
+      "severity": "medium",
+      "description": "Process ace_engine.exe (PID 12140) running from suspicious path: C:\\Users\\Korisnik\\AppData\\Roaming\\ACEStream\\engine\\ace_engine.exe",
+      "confidence": 0.7
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Autorun registry entry: CCleaner Smart Cleaning -> \"C:\\Program Files\\CCleaner\\CCleaner64.exe\" /MONITOR",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Autorun registry entry: uTorrent -> \"C:\\Users\\Korisnik\\AppData\\Roaming\\uTorrent\\uTorrent.exe\"  /MINIMIZED",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Autorun registry entry: Skype for Desktop -> C:\\Program Files (x86)\\Microsoft\\Skype for Desktop\\Skype.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Autorun registry entry: CiscoMeetingDaemon -> \"C:\\Users\\Korisnik\\AppData\\Local\\WebEx\\WebexHost.exe\" /daemon /runFrom=autorun",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Autorun registry entry: EpicGamesLauncher -> \"C:\\Program Files (x86)\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe\" -silent",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Autorun registry entry: AceStream -> C:\\Users\\Korisnik\\AppData\\Roaming\\ACEStream\\engine\\ace_engine.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Autorun registry entry: Opera Browser Assistant -> C:\\Users\\Korisnik\\AppData\\Local\\Programs\\Opera\\assistant\\browser_assistant.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Autorun registry entry: com.squirrel.Teams.Teams -> C:\\Users\\Korisnik\\AppData\\Local\\Microsoft\\Teams\\Update.exe --processStart \"Teams.exe\" --process-start-args \"--system-initiated\"",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Autorun registry entry: UrbanVPN -> C:\\Program Files\\UrbanVPN\\UrbanVPNUpdater.exe /checknow -minuseractions -startappfirst -restartapp \"C:\\Program Files\\UrbanVPN\\bin\\urbanvpn-gui.exe\"",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Autorun registry entry: Viber -> \"C:\\Users\\Korisnik\\AppData\\Local\\Viber\\Viber.exe\" AutoStart",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Autorun registry entry: Adobe Speed Launcher -> 1767081162",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Autorun registry entry: SecurityHealth -> %windir%\\system32\\SecurityHealthSystray.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Autorun registry entry: RtHDVCpl -> C:\\Program Files\\Realtek\\Audio\\HDA\\RAVCpl64.exe -s",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Autorun registry entry: AvastUI.exe -> \"C:\\Program Files\\Avast Software\\Avast\\AvLaunch.exe\" /gui",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Autorun registry entry: BCSSync -> \"C:\\Program Files\\Microsoft Office\\Office14\\BCSSync.exe\" /DelayServices",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Autorun registry entry: MouseDriver -> TiltWheelMouse.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Autorun registry entry: Eraser -> \"C:\\Program Files\\Eraser\\Eraser.exe\" -atRestart",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Autorun registry entry: msedge_cleanup_{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5} -> \"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.96\\Installer\\setup.exe\" --msedgewebview --delete-old-versions --system-level --verbose-logging --on-logon",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Startup folder item detected: C:\\Users\\Korisnik\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+      "confidence": 0.85
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Startup folder item detected: C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+      "confidence": 0.85
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files\\CCleaner\\CCleanerBugReport.exe --product 90 --send dumps|report --path \"C:\\Program Files\\CCleaner\\LOG\" --programpath \"C:\\Program Files\\CCleaner\" --configpath \"C:\\Program Files\\CCleaner\\Setup\" --guid \"ef40834e-56dc-4bd9-9ac8-59b8a93b3030",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: \"C:\\Program Files\\CCleaner\\CCleaner.exe\" $(Arg0)",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: \"C:\\Program Files (x86)\\HP\\HPLJUT\\HPLJUTSCH.exe\"",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Users\\Korisnik\\AppData\\Local\\Programs\\Opera\\launcher.exe --scheduledautoupdate --component-name=assistant --component-path=\"C:\\Users\\Korisnik\\AppData\\Local\\Programs\\Opera\\assistant\" $(Arg0)",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Users\\Korisnik\\AppData\\Local\\Programs\\Opera\\launcher.exe --scheduledautoupdate --component-name=assistant --component-path=\"C:\\Users\\Korisnik\\AppData\\Local\\Programs\\Opera\\assistant\" $(Arg0)",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Users\\Korisnik\\AppData\\Local\\Programs\\Opera\\launcher.exe --scheduledautoupdate $(Arg0)",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Users\\Korisnik\\AppData\\Local\\Programs\\Opera\\launcher.exe --scheduledautoupdate $(Arg0)",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files (x86)\\Skillbrains\\Updater\\Updater.exe -runmode=checkupdate",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files\\HPPrintScanDoctor\\HPPrinterHealthMonitor.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files\\HPPrintScanDoctor\\HPPrinterHealthMonitor.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files\\HPPrintScanDoctor\\HPPrinterHealthMonitor.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files\\HPPrintScanDoctor\\HPPrinterHealthMonitor.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files\\HPPrintScanDoctor\\HPPrinterHealthMonitor.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files\\HPPrintScanDoctor\\HPPrinterHealthMonitor.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files\\HPPrintScanDoctor\\HPPrinterHealthMonitor.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files (x86)\\Microsoft Office\\root\\VFS\\ProgramFilesCommonX86\\Microsoft Shared\\Office16\\ActionsServer\\ActionsServer.exe availabilitycheck",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files (x86)\\Microsoft Office\\root\\VFS\\ProgramFilesCommonX86\\Microsoft Shared\\Office16\\ActionsServer\\ActionsServer.exe availabilitycheck",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeC2RClient.exe /frequentupdate SCHEDULEDTASK displaylevel=False",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeC2RClient.exe /frequentupdate SCHEDULEDTASK displaylevel=False",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeC2RClient.exe /frequentupdate SCHEDULEDTASK displaylevel=False",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeC2RClient.exe /WatchService",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\sdxhelper.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\sdxhelper.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\sdxhelper.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\sdxhelper.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\sdxhelper.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\sdxhelper.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\sdxhelper.exe /onlogon",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\sdxhelper.exe /onlogon",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files (x86)\\Microsoft Office\\root\\VFS\\ProgramFilesCommonX86\\Microsoft Shared\\Office16\\ActionsServer\\ActionsServer.exe wacheck",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files (x86)\\Microsoft Office\\root\\VFS\\ProgramFilesCommonX86\\Microsoft Shared\\Office16\\ActionsServer\\ActionsServer.exe wacheck",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\resources\\app\\ServiceHub\\Services\\Microsoft.VisualStudio.Setup.Service\\BackgroundDownload.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\appidpolicyconverter.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\appidcertstorecheck.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\compattelrunner.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\compattelrunner.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\compattelrunner.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\compattelrunner.exe -maintenance",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\rundll32.exe Startupscan.dll,SusRunTask",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\AppHostRegistrationVerifier.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\AppHostRegistrationVerifier.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\rundll32.exe Windows.Storage.ApplicationData.dll,CleanupTemporaryState",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\dstokenclean.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\rundll32.exe %windir%\\system32\\AppxDeploymentClient.dll,AppxPreStageCleanupRunTask",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\rundll32.exe /d acproxy.dll,PerformAutochkOperations",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: BthUdTask.exe $(Arg0)",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\bcdboot.exe %windir% /sysrepair",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\defrag.exe -c -h -o -$",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\devicecensus.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\devicecensus.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\dxgiadaptercache.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\dxgiadaptercache.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\cleanmgr.exe /autoclean /d %systemdrive%",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\rundll32.exe dfdts.dll,DfdGetDefaultPolicyAndSMART",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\DFDWiz.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\disksnapshot.exe -z",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\dmclient.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\dmclient.exe utcwnf",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\ProvTool.exe /turn 7 /source CellStateChangeTask",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\ProvTool.exe /turn 5 /source LogonIdleTask",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\lpremove.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\gatherNetworkInfo.vbs",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %WINDIR%\\system32\\SecureBootEncodeUEFI.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %WINDIR%\\system32\\SecureBootEncodeUEFI.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %WINDIR%\\system32\\SecureBootEncodeUEFI.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\eduprintprov.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\SpaceAgent.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\SpaceAgent.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\spaceman.exe /Work",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\spaceman.exe /Work",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\speech_onecore\\common\\SpeechRuntime.exe StartedFromTask",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\defrag.exe -c -h -g -# -m 8 -i 13500",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\rundll32.exe sysmain.dll,PfSvWsSwapAssessmentTask",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\srtasks.exe ExecuteScheduledSPPCreation",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\sc.exe start w32time task_started",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\tzsync.exe",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: sc.exe config upnphost start= auto",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\wermgr.exe -upload",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\wermgr.exe -upload",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\wermgr.exe -upload",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\wermgr.exe -upload",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: %windir%\\system32\\rundll32.exe bfe.dll,BfeOnServiceStartTypeChange",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: \"%ProgramFiles%\\Windows Media Player\\wmpnscfg.exe\"",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Windows\\system32\\sc.exe start wuauserv",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Windows\\system32\\sc.exe start wuauserv",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Windows\\system32\\sc.exe start wuauserv",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Windows\\system32\\sc.exe start wuauserv",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: COM handler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files\\PDF Architect 8\\architect-launcher.exe --check-notifications",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files\\PDF Architect 8\\architect-launcher.exe --create-or-update-scheduler",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files\\PDF Architect 8\\architect.exe --update --mode check auto notify",
+      "confidence": 0.9
+    },
+    {
+      "category": "persistence",
+      "severity": "high",
+      "description": "Scheduled task with custom binary: C:\\Program Files\\PDF Architect 8\\architect.exe --update --mode check auto notify",
+      "confidence": 0.9
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: HP Smart",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Shell Input Application",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: windows_ie_ac_001",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: @{Microsoft.Windows.SecHealthUI_10.0.17763.3232_neutral__cw5n1h2txyewy?ms-resource://Microsoft.Windows.SecHealthUI/resources/PackageDisplayName}",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: @{Microsoft.Windows.Cortana_1.11.6.17763_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Cortana/resources/PackageDisplayName}",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: @{Microsoft.AccountsControl_10.0.17763.1_neutral__cw5n1h2txyewy?ms-resource://Microsoft.AccountsControl/Resources/DisplayName}",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: @{Microsoft.LockApp_10.0.17763.1_neutral__cw5n1h2txyewy?ms-resource://Microsoft.LockApp/resources/AppDisplayName}",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: @{Microsoft.Win32WebViewHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.Win32WebViewHost/resources/DisplayName}",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: @{Microsoft.Windows.Apprep.ChxApp_1000.17763.1.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Apprep.ChxApp/resources/DisplayName}",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: @{Microsoft.Windows.NarratorQuickStart_10.0.17763.1_neutral_neutral_8wekyb3d8bbwe?ms-resource://Microsoft.Windows.NarratorQuickStart/Resources/AppDisplayName}",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: @{Microsoft.Windows.OOBENetworkCaptivePortal_10.0.17763.1_neutral__cw5n1h2txyewy?ms-resource://Microsoft.Windows.OOBENetworkCaptivePortal/Resources/AppDisplayName}",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: @{Microsoft.Windows.ParentalControls_1000.17763.1.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ParentalControls/resources/DisplayName}",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: @{Microsoft.Windows.PeopleExperienceHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.PeopleExperienceHost/resources/PkgDisplayName}",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: @{Microsoft.XboxGameCallableUI_1000.17763.1.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.XboxGameCallableUI/resources/PkgDisplayName}",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: @{Microsoft.Windows.ContentDeliveryManager_10.0.17763.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ContentDeliveryManager/resources/AppDisplayName}",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: @{Microsoft.Windows.ShellExperienceHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ShellExperienceHost/resources/PkgDisplayName}",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: @{Microsoft.Windows.CloudExperienceHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: @{Microsoft.AAD.BrokerPlugin_1000.17763.1.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.AAD.BrokerPlugin/resources/PackageDisplayName}",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: @{Microsoft.Windows.ContentDeliveryManager_10.0.17763.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ContentDeliveryManager/resources/AppDisplayName}",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: @{Microsoft.Windows.ShellExperienceHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ShellExperienceHost/resources/PkgDisplayName}",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: @{Microsoft.Windows.CloudExperienceHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: BranchCache Hosted Cache Client (HTTP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: BranchCache Hosted Cache Server(HTTP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: BranchCache Peer Discovery (WSD-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: BranchCache Content Retrieval (HTTP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Cast to Device functionality (qWave-TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Cast to Device functionality (qWave-UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Cast to Device streaming server (RTP-Streaming-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Cast to Device streaming server (RTP-Streaming-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Cast to Device streaming server (RTP-Streaming-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Media Center Extenders - UPnP (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Media Center Extenders - Media Streaming (UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Media Center Extenders - Device Validation (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Media Center Extenders - Media Streaming (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Media Center Extenders - Device Provisioning (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Media Center Extenders - Service (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Media Center Extenders - WMDRM-ND/RTP/RTCP (UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Media Center Extenders - qWave (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Media Center Extenders - qWave (UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Media Center Extenders - RTSP (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Media Center Extenders - SSDP (UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Wireless Portable Devices (UPnPHost-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Wireless Portable Devices (UPnP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Wireless Portable Devices (SSDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Wireless Portable Devices (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Wireless Portable Devices (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player Network Sharing Service (UPnPHost-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player Network Sharing Service (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player Network Sharing Service (UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player Network Sharing Service (Streaming-TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player Network Sharing Service (Streaming-UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player Network Sharing Service (HTTP-Streaming-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player Network Sharing Service (UPnP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player Network Sharing Service (SSDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player Network Sharing Service (qWave-TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player Network Sharing Service (qWave-UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player Network Sharing Service (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player Network Sharing Service (UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player Network Sharing Service (Streaming-TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player Network Sharing Service (Streaming-UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player Network Sharing Service (HTTP-Streaming-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player Network Sharing Service (qWave-TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player Network Sharing Service (qWave-UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player (UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player x86 (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Media Player x86 (UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: WFD ASP Coordination Protocol (UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: mDNS (UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: mDNS (UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: mDNS (UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Peer to Peer Collaboration Foundation (SSDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Peer to Peer Collaboration Foundation (PNRP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Peer to Peer Collaboration Foundation (WSD-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Peer to Peer Collaboration Foundation (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Connected Devices Platform - Wi-Fi Direct Transport (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Connected Devices Platform (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Connected Devices Platform (UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: TPM Virtual Smart Card Management (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: TPM Virtual Smart Card Management (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - Group Policy (LSASS-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - DNS (UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - Group Policy (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - Group Policy (NP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - IPv6 (IPv6-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - IPHTTPS (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - Teredo (UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - Dynamic Host Configuration Protocol for IPv6(DHCPV6-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - Dynamic Host Configuration Protocol (DHCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - Internet Group Management Protocol (IGMP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - Multicast Listener Done (ICMPv6-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - Multicast Listener Report v2 (ICMPv6-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - Multicast Listener Report (ICMPv6-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - Multicast Listener Query (ICMPv6-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - Router Solicitation (ICMPv6-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - Router Advertisement (ICMPv6-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - Neighbor Discovery Advertisement (ICMPv6-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - Neighbor Discovery Solicitation (ICMPv6-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - Parameter Problem (ICMPv6-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - Time Exceeded (ICMPv6-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Core Networking - Packet Too Big (ICMPv6-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Device Management Sync Client (TCP out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Device Management Certificate Installer (TCP out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Routing and Remote Access (PPTP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Routing and Remote Access (L2TP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Routing and Remote Access (GRE-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Wi-Fi Direct Scan Service Use (Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Wi-Fi Direct Spooler Use (Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Wi-Fi Direct Network Discovery (Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Device Management Enrollment Service (TCP out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Distributed Transaction Coordinator (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Distributed Transaction Coordinator (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Remote Assistance (PNRP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Remote Assistance (SSDP TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Remote Assistance (SSDP UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Remote Assistance (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Remote Assistance (RA Server TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Remote Assistance (PNRP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Remote Assistance (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (WSD Events-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (WSD EventsSecure-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (Pub WSD-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (LLMNR-UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (WSD-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (NB-Datagram-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (NB-Name-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (UPnP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (UPnPHost-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (SSDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (WSD Events-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (WSD EventsSecure-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (Pub WSD-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (LLMNR-UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (WSD-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (NB-Datagram-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (NB-Name-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (UPnPHost-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (UPnP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (SSDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (WSD Events-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (WSD EventsSecure-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (NB-Datagram-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (NB-Name-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Network Discovery (UPnP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: HomeGroup Out (PNRP)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: HomeGroup Out",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Proximity sharing over TCP (TCP sharing-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: File and Printer Sharing (LLMNR-UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: File and Printer Sharing (Echo Request - ICMPv6-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: File and Printer Sharing (Echo Request - ICMPv4-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: File and Printer Sharing (NB-Datagram-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: File and Printer Sharing (NB-Name-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: File and Printer Sharing (SMB-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: File and Printer Sharing (NB-Session-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: File and Printer Sharing (Echo Request - ICMPv6-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: File and Printer Sharing (Echo Request - ICMPv4-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: File and Printer Sharing (NB-Datagram-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: File and Printer Sharing (NB-Name-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: File and Printer Sharing (SMB-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: File and Printer Sharing (NB-Session-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: iSCSI Service (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: iSCSI Service (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Management Instrumentation (WMI-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Management Instrumentation (WMI-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Wireless Display (UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Wireless Display (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: AllJoyn Router (UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: AllJoyn Router (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Collaboration Computer Name Registration Service (SSDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Windows Collaboration Computer Name Registration Service (PNRP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: Connected User Experiences and Telemetry",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: WFD Driver-only (UDP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "low",
+      "description": "Outbound firewall allow rule: WFD Driver-only (TCP-Out)",
+      "confidence": 0.4
+    },
+    {
+      "category": "system",
+      "severity": "high",
+      "description": "Windows Defender appears to be disabled",
+      "confidence": 0.9
+    }
+  ],
+  "risk": {
+    "risk_score": 100,
+    "risk_level": "HIGH",
+    "reasons": [
+      "Autorun registry entry: AceStream -> C:\\Users\\Korisnik\\AppData\\Roaming\\ACEStream\\engine\\ace_engine.exe",
+      "Scheduled task with custom binary: C:\\Program Files\\PDF Architect 8\\architect-launcher.exe --create-or-update-scheduler",
+      "Outbound firewall allow rule: Remote Assistance (SSDP TCP-Out)",
+      "Outbound firewall allow rule: WFD Driver-only (UDP-Out)",
+      "Outbound firewall allow rule: Media Center Extenders - Device Validation (TCP-Out)",
+      "Outbound firewall allow rule: Network Discovery (UPnP-Out)",
+      "Scheduled task with custom binary: C:\\Users\\Korisnik\\AppData\\Local\\Programs\\Opera\\launcher.exe --scheduledautoupdate $(Arg0)",
+      "Scheduled task with custom binary: %windir%\\system32\\wermgr.exe -upload",
+      "Outbound firewall allow rule: TPM Virtual Smart Card Management (TCP-Out)",
+      "Outbound firewall allow rule: @{Microsoft.Windows.ShellExperienceHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ShellExperienceHost/resources/PkgDisplayName}",
+      "Process browser_assistant.exe (PID 10940) running from suspicious path: C:\\Users\\Korisnik\\AppData\\Local\\Programs\\Opera\\assistant\\browser_assistant.exe",
+      "Scheduled task with custom binary: %windir%\\system32\\bcdboot.exe %windir% /sysrepair",
+      "Scheduled task with custom binary: C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\sdxhelper.exe /onlogon",
+      "Scheduled task with custom binary: sc.exe config upnphost start= auto",
+      "Scheduled task with custom binary: %windir%\\system32\\rundll32.exe sysmain.dll,PfSvWsSwapAssessmentTask",
+      "Outbound firewall allow rule: Media Center Extenders - qWave (TCP-Out)",
+      "Outbound firewall allow rule: Core Networking - Group Policy (NP-Out)",
+      "Scheduled task with custom binary: %windir%\\system32\\devicecensus.exe",
+      "Outbound firewall allow rule: Routing and Remote Access (L2TP-Out)",
+      "Rare DNS domain queried: analytics.avcdn.net",
+      "Outbound firewall allow rule: @{Microsoft.Windows.OOBENetworkCaptivePortal_10.0.17763.1_neutral__cw5n1h2txyewy?ms-resource://Microsoft.Windows.OOBENetworkCaptivePortal/Resources/AppDisplayName}",
+      "Outbound firewall allow rule: Core Networking - Neighbor Discovery Solicitation (ICMPv6-Out)",
+      "Scheduled task with custom binary: %windir%\\system32\\DFDWiz.exe",
+      "Outbound firewall allow rule: @{Microsoft.AccountsControl_10.0.17763.1_neutral__cw5n1h2txyewy?ms-resource://Microsoft.AccountsControl/Resources/DisplayName}",
+      "Scheduled task with custom binary: %windir%\\system32\\SpaceAgent.exe",
+      "Outbound firewall allow rule: @{Microsoft.Windows.Cortana_1.11.6.17763_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Cortana/resources/PackageDisplayName}",
+      "Scheduled task with custom binary: \"C:\\Program Files (x86)\\HP\\HPLJUT\\HPLJUTSCH.exe\"",
+      "Startup folder item detected: C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+      "Autorun registry entry: UrbanVPN -> C:\\Program Files\\UrbanVPN\\UrbanVPNUpdater.exe /checknow -minuseractions -startappfirst -restartapp \"C:\\Program Files\\UrbanVPN\\bin\\urbanvpn-gui.exe\"",
+      "Scheduled task with custom binary: %windir%\\system32\\rundll32.exe Startupscan.dll,SusRunTask",
+      "Scheduled task with custom binary: %windir%\\system32\\gatherNetworkInfo.vbs",
+      "Outbound firewall allow rule: @{Microsoft.LockApp_10.0.17763.1_neutral__cw5n1h2txyewy?ms-resource://Microsoft.LockApp/resources/AppDisplayName}",
+      "Outbound firewall allow rule: WFD Driver-only (TCP-Out)",
+      "Outbound firewall allow rule: BranchCache Hosted Cache Server(HTTP-Out)",
+      "Outbound firewall allow rule: Windows Media Player Network Sharing Service (Streaming-UDP-Out)",
+      "Process svchost.exe (PID 3376) opened 30 outbound connections",
+      "Rare DNS domain queried: ping.urban-vpn.com",
+      "Process ace_update.exe (PID 11284) running from suspicious path: C:\\Users\\Korisnik\\AppData\\Roaming\\ACEStream\\updater\\ace_update.exe",
+      "Scheduled task with custom binary: \"C:\\Program Files\\CCleaner\\CCleaner.exe\" $(Arg0)",
+      "Scheduled task with custom binary: %windir%\\system32\\dmclient.exe",
+      "Windows Defender appears to be disabled",
+      "Outbound firewall allow rule: Windows Collaboration Computer Name Registration Service (SSDP-Out)",
+      "Scheduled task with custom binary: %windir%\\system32\\dstokenclean.exe",
+      "Autorun registry entry: Eraser -> \"C:\\Program Files\\Eraser\\Eraser.exe\" -atRestart",
+      "Autorun registry entry: com.squirrel.Teams.Teams -> C:\\Users\\Korisnik\\AppData\\Local\\Microsoft\\Teams\\Update.exe --processStart \"Teams.exe\" --process-start-args \"--system-initiated\"",
+      "Scheduled task with custom binary: C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\resources\\app\\ServiceHub\\Services\\Microsoft.VisualStudio.Setup.Service\\BackgroundDownload.exe",
+      "Process Viber.exe (PID 3976) opened 270 outbound connections",
+      "Process WebexHost.exe (PID 8596) running from suspicious path: C:\\Users\\Korisnik\\AppData\\Local\\WebEx\\WebexHost.exe",
+      "Process urbanvpnserv.exe (PID 3760) opened 3500 outbound connections",
+      "Persistence combined with outbound network activity",
+      "Outbound firewall allow rule: @{Microsoft.AAD.BrokerPlugin_1000.17763.1.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.AAD.BrokerPlugin/resources/PackageDisplayName}",
+      "Outbound firewall allow rule: Cast to Device streaming server (RTP-Streaming-Out)",
+      "Scheduled task with custom binary: C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeC2RClient.exe /frequentupdate SCHEDULEDTASK displaylevel=False",
+      "Scheduled task with custom binary: %windir%\\system32\\sc.exe start w32time task_started",
+      "Scheduled task with custom binary: %windir%\\system32\\spaceman.exe /Work",
+      "Outbound firewall allow rule: Core Networking - Multicast Listener Report v2 (ICMPv6-Out)",
+      "Outbound firewall allow rule: Windows Device Management Sync Client (TCP out)",
+      "Outbound firewall allow rule: Windows Device Management Enrollment Service (TCP out)",
+      "Outbound firewall allow rule: Network Discovery (WSD EventsSecure-Out)",
+      "Outbound firewall allow rule: Network Discovery (LLMNR-UDP-Out)",
+      "Outbound firewall allow rule: Core Networking - Parameter Problem (ICMPv6-Out)",
+      "Scheduled task with custom binary: \"%ProgramFiles%\\Windows Media Player\\wmpnscfg.exe\"",
+      "Scheduled task with custom binary: %windir%\\system32\\rundll32.exe %windir%\\system32\\AppxDeploymentClient.dll,AppxPreStageCleanupRunTask",
+      "Outbound firewall allow rule: HP Smart",
+      "Outbound firewall allow rule: Core Networking - Multicast Listener Report (ICMPv6-Out)",
+      "Outbound firewall allow rule: Network Discovery (NB-Name-Out)",
+      "Autorun registry entry: Opera Browser Assistant -> C:\\Users\\Korisnik\\AppData\\Local\\Programs\\Opera\\assistant\\browser_assistant.exe",
+      "Autorun registry entry: msedge_cleanup_{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5} -> \"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\143.0.3650.96\\Installer\\setup.exe\" --msedgewebview --delete-old-versions --system-level --verbose-logging --on-logon",
+      "Outbound firewall allow rule: @{Microsoft.Windows.CloudExperienceHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.CloudExperienceHost/resources/appDescription}",
+      "Outbound firewall allow rule: Media Center Extenders - RTSP (TCP-Out)",
+      "Outbound firewall allow rule: Windows Media Player Network Sharing Service (UPnPHost-Out)",
+      "Scheduled task with custom binary: %windir%\\system32\\appidpolicyconverter.exe",
+      "Rare DNS domain queried: ip-info.ff.avast.com",
+      "Outbound firewall allow rule: Wi-Fi Direct Scan Service Use (Out)",
+      "Scheduled task with custom binary: %windir%\\system32\\dxgiadaptercache.exe",
+      "Suspicious DNS behavior combined with network beaconing",
+      "Outbound firewall allow rule: Media Center Extenders - WMDRM-ND/RTP/RTCP (UDP-Out)",
+      "Outbound firewall allow rule: Windows Media Player (UDP-Out)",
+      "Outbound firewall allow rule: @{Microsoft.Windows.ParentalControls_1000.17763.1.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ParentalControls/resources/DisplayName}",
+      "Outbound firewall allow rule: Connected Devices Platform (TCP-Out)",
+      "Autorun registry entry: CiscoMeetingDaemon -> \"C:\\Users\\Korisnik\\AppData\\Local\\WebEx\\WebexHost.exe\" /daemon /runFrom=autorun",
+      "Outbound firewall allow rule: Network Discovery (Pub WSD-Out)",
+      "Outbound firewall allow rule: Windows Peer to Peer Collaboration Foundation (TCP-Out)",
+      "Outbound firewall allow rule: Core Networking - Packet Too Big (ICMPv6-Out)",
+      "Scheduled task with custom binary: %windir%\\system32\\cleanmgr.exe /autoclean /d %systemdrive%",
+      "Outbound firewall allow rule: Windows Media Player Network Sharing Service (SSDP-Out)",
+      "Outbound firewall allow rule: Core Networking - Group Policy (TCP-Out)",
+      "Outbound firewall allow rule: Wireless Portable Devices (SSDP-Out)",
+      "Outbound firewall allow rule: Distributed Transaction Coordinator (TCP-Out)",
+      "Scheduled task with custom binary: C:\\Program Files\\CCleaner\\CCleanerBugReport.exe --product 90 --send dumps|report --path \"C:\\Program Files\\CCleaner\\LOG\" --programpath \"C:\\Program Files\\CCleaner\" --configpath \"C:\\Program Files\\CCleaner\\Setup\" --guid \"ef40834e-56dc-4bd9-9ac8-59b8a93b3030",
+      "Autorun registry entry: Adobe Speed Launcher -> 1767081162",
+      "Outbound firewall allow rule: iSCSI Service (TCP-Out)",
+      "Scheduled task with custom binary: %windir%\\system32\\rundll32.exe bfe.dll,BfeOnServiceStartTypeChange",
+      "Outbound firewall allow rule: @{Microsoft.Windows.NarratorQuickStart_10.0.17763.1_neutral_neutral_8wekyb3d8bbwe?ms-resource://Microsoft.Windows.NarratorQuickStart/Resources/AppDisplayName}",
+      "Scheduled task with custom binary: %windir%\\system32\\AppHostRegistrationVerifier.exe",
+      "Outbound firewall allow rule: Routing and Remote Access (PPTP-Out)",
+      "Outbound firewall allow rule: Remote Assistance (SSDP UDP-Out)",
+      "Outbound firewall allow rule: Windows Media Player (TCP-Out)",
+      "Outbound firewall allow rule: Core Networking - Dynamic Host Configuration Protocol (DHCP-Out)",
+      "Scheduled task with custom binary: %windir%\\system32\\defrag.exe -c -h -o -$",
+      "Outbound firewall allow rule: Shell Input Application",
+      "Outbound firewall allow rule: Windows Peer to Peer Collaboration Foundation (WSD-Out)",
+      "Outbound firewall allow rule: Windows Media Player Network Sharing Service (UPnP-Out)",
+      "Outbound firewall allow rule: Core Networking - Teredo (UDP-Out)",
+      "Outbound firewall allow rule: Windows Peer to Peer Collaboration Foundation (PNRP-Out)",
+      "Startup folder item detected: C:\\Users\\Korisnik\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\desktop.ini",
+      "Autorun registry entry: MouseDriver -> TiltWheelMouse.exe",
+      "Outbound firewall allow rule: AllJoyn Router (UDP-Out)",
+      "Scheduled task with custom binary: C:\\Windows\\system32\\sc.exe start wuauserv",
+      "Outbound firewall allow rule: Media Center Extenders - SSDP (UDP-Out)",
+      "Outbound firewall allow rule: Windows Media Player x86 (TCP-Out)",
+      "Outbound firewall allow rule: File and Printer Sharing (Echo Request - ICMPv4-Out)",
+      "Outbound firewall allow rule: Proximity sharing over TCP (TCP sharing-Out)",
+      "Scheduled task with custom binary: C:\\Program Files (x86)\\Microsoft Office\\root\\Office16\\sdxhelper.exe",
+      "Outbound firewall allow rule: @{Microsoft.Windows.SecHealthUI_10.0.17763.3232_neutral__cw5n1h2txyewy?ms-resource://Microsoft.Windows.SecHealthUI/resources/PackageDisplayName}",
+      "Outbound firewall allow rule: Wi-Fi Direct Network Discovery (Out)",
+      "Outbound firewall allow rule: windows_ie_ac_001",
+      "Outbound firewall allow rule: Core Networking - Time Exceeded (ICMPv6-Out)",
+      "Scheduled task with custom binary: C:\\Program Files\\PDF Architect 8\\architect-launcher.exe --check-notifications",
+      "Outbound firewall allow rule: File and Printer Sharing (NB-Name-Out)",
+      "Outbound firewall allow rule: Media Center Extenders - qWave (UDP-Out)",
+      "Scheduled task with custom binary: %windir%\\system32\\rundll32.exe dfdts.dll,DfdGetDefaultPolicyAndSMART",
+      "Process System Idle Process (PID 0) has no parent process",
+      "Scheduled task with custom binary: C:\\Program Files (x86)\\Microsoft Office\\root\\VFS\\ProgramFilesCommonX86\\Microsoft Shared\\Office16\\ActionsServer\\ActionsServer.exe availabilitycheck",
+      "Outbound firewall allow rule: Network Discovery (NB-Datagram-Out)",
+      "Outbound firewall allow rule: Media Center Extenders - Media Streaming (TCP-Out)",
+      "Outbound firewall allow rule: Cast to Device functionality (qWave-UDP-Out)",
+      "Outbound firewall allow rule: Windows Media Player Network Sharing Service (qWave-TCP-Out)",
+      "Autorun registry entry: AvastUI.exe -> \"C:\\Program Files\\Avast Software\\Avast\\AvLaunch.exe\" /gui",
+      "Outbound firewall allow rule: Core Networking - IPHTTPS (TCP-Out)",
+      "Outbound firewall allow rule: Windows Peer to Peer Collaboration Foundation (SSDP-Out)",
+      "Process chrome.exe (PID 3356) opened 390 outbound connections",
+      "Outbound firewall allow rule: Media Center Extenders - Device Provisioning (TCP-Out)",
+      "Outbound firewall allow rule: Core Networking - DNS (UDP-Out)",
+      "Scheduled task with custom binary: C:\\Users\\Korisnik\\AppData\\Local\\Programs\\Opera\\launcher.exe --scheduledautoupdate --component-name=assistant --component-path=\"C:\\Users\\Korisnik\\AppData\\Local\\Programs\\Opera\\assistant\" $(Arg0)",
+      "Scheduled task with custom binary: %windir%\\system32\\eduprintprov.exe",
+      "Outbound firewall allow rule: Wireless Portable Devices (TCP-Out)",
+      "Process aswToolsSvc.exe (PID 2984) opened 30 outbound connections",
+      "Outbound firewall allow rule: @{Microsoft.Windows.ContentDeliveryManager_10.0.17763.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.ContentDeliveryManager/resources/AppDisplayName}",
+      "Rare DNS domain queried: stun.l.google.com",
+      "Outbound firewall allow rule: Core Networking - Router Solicitation (ICMPv6-Out)",
+      "Scheduled task with custom binary: COM handler",
+      "Outbound firewall allow rule: Windows Media Player Network Sharing Service (TCP-Out)",
+      "Outbound firewall allow rule: Network Discovery (WSD-Out)",
+      "Outbound firewall allow rule: HomeGroup Out",
+      "Rare DNS domain queried: ipfs.drawgaze.online",
+      "Scheduled task with custom binary: C:\\Program Files\\HPPrintScanDoctor\\HPPrinterHealthMonitor.exe",
+      "Outbound firewall allow rule: Network Discovery (WSD Events-Out)",
+      "Outbound firewall allow rule: File and Printer Sharing (SMB-Out)",
+      "Scheduled task with custom binary: %windir%\\system32\\speech_onecore\\common\\SpeechRuntime.exe StartedFromTask",
+      "Outbound firewall allow rule: Media Center Extenders - Media Streaming (UDP-Out)",
+      "Outbound firewall allow rule: BranchCache Peer Discovery (WSD-Out)",
+      "Rare DNS domain queried: 1957745448.rsc.cdn77.org",
+      "Outbound firewall allow rule: Wireless Portable Devices (UPnP-Out)",
+      "Outbound firewall allow rule: Wi-Fi Direct Spooler Use (Out)",
+      "Scheduled task with custom binary: %windir%\\system32\\defrag.exe -c -h -g -# -m 8 -i 13500",
+      "Scheduled task with custom binary: %windir%\\system32\\tzsync.exe",
+      "Outbound firewall allow rule: BranchCache Hosted Cache Client (HTTP-Out)",
+      "Outbound firewall allow rule: Network Discovery (SSDP-Out)",
+      "Autorun registry entry: CCleaner Smart Cleaning -> \"C:\\Program Files\\CCleaner\\CCleaner64.exe\" /MONITOR",
+      "Outbound firewall allow rule: @{Microsoft.Windows.PeopleExperienceHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.PeopleExperienceHost/resources/PkgDisplayName}",
+      "Outbound firewall allow rule: Connected Devices Platform (UDP-Out)",
+      "Outbound firewall allow rule: HomeGroup Out (PNRP)",
+      "Scheduled task with custom binary: %windir%\\system32\\ProvTool.exe /turn 5 /source LogonIdleTask",
+      "Outbound firewall allow rule: Windows Media Player Network Sharing Service (HTTP-Streaming-Out)",
+      "Outbound firewall allow rule: File and Printer Sharing (Echo Request - ICMPv6-Out)",
+      "Outbound firewall allow rule: WFD ASP Coordination Protocol (UDP-Out)",
+      "Scheduled task with custom binary: C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeC2RClient.exe /WatchService",
+      "Outbound firewall allow rule: Windows Device Management Certificate Installer (TCP out)",
+      "Outbound firewall allow rule: Wireless Display (UDP-Out)",
+      "Outbound firewall allow rule: File and Printer Sharing (NB-Datagram-Out)",
+      "Outbound firewall allow rule: Windows Collaboration Computer Name Registration Service (PNRP-Out)",
+      "Scheduled task with custom binary: %windir%\\system32\\srtasks.exe ExecuteScheduledSPPCreation",
+      "Scheduled task with custom binary: %windir%\\system32\\compattelrunner.exe",
+      "Autorun registry entry: EpicGamesLauncher -> \"C:\\Program Files (x86)\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe\" -silent",
+      "Outbound firewall allow rule: mDNS (UDP-Out)",
+      "Autorun registry entry: RtHDVCpl -> C:\\Program Files\\Realtek\\Audio\\HDA\\RAVCpl64.exe -s",
+      "Outbound firewall allow rule: @{Microsoft.Win32WebViewHost_10.0.17763.1_neutral_neutral_cw5n1h2txyewy?ms-resource://Windows.Win32WebViewHost/resources/DisplayName}",
+      "Outbound firewall allow rule: @{Microsoft.Windows.Apprep.ChxApp_1000.17763.1.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.Windows.Apprep.ChxApp/resources/DisplayName}",
+      "Scheduled task with custom binary: %windir%\\system32\\lpremove.exe",
+      "Outbound firewall allow rule: Windows Media Player x86 (UDP-Out)",
+      "Outbound firewall allow rule: Core Networking - Neighbor Discovery Advertisement (ICMPv6-Out)",
+      "Outbound firewall allow rule: Wireless Display (TCP-Out)",
+      "Outbound firewall allow rule: AllJoyn Router (TCP-Out)",
+      "Outbound firewall allow rule: Connected User Experiences and Telemetry",
+      "Scheduled task with custom binary: %windir%\\system32\\rundll32.exe Windows.Storage.ApplicationData.dll,CleanupTemporaryState",
+      "Process System (PID 4) has no parent process",
+      "Autorun registry entry: uTorrent -> \"C:\\Users\\Korisnik\\AppData\\Roaming\\uTorrent\\uTorrent.exe\"  /MINIMIZED",
+      "Outbound firewall allow rule: Connected Devices Platform - Wi-Fi Direct Transport (TCP-Out)",
+      "Outbound firewall allow rule: Routing and Remote Access (GRE-Out)",
+      "Outbound firewall allow rule: Remote Assistance (PNRP-Out)",
+      "Outbound firewall allow rule: Remote Assistance (RA Server TCP-Out)",
+      "Outbound firewall allow rule: Media Center Extenders - UPnP (TCP-Out)",
+      "Scheduled task with custom binary: C:\\Program Files (x86)\\Skillbrains\\Updater\\Updater.exe -runmode=checkupdate",
+      "Outbound firewall allow rule: File and Printer Sharing (LLMNR-UDP-Out)",
+      "Outbound firewall allow rule: Windows Management Instrumentation (WMI-Out)",
+      "Outbound firewall allow rule: Core Networking - Dynamic Host Configuration Protocol for IPv6(DHCPV6-Out)",
+      "Autorun registry entry: SecurityHealth -> %windir%\\system32\\SecurityHealthSystray.exe",
+      "Scheduled task with custom binary: %windir%\\system32\\appidcertstorecheck.exe",
+      "Outbound firewall allow rule: Cast to Device functionality (qWave-TCP-Out)",
+      "Outbound firewall allow rule: Core Networking - Group Policy (LSASS-Out)",
+      "Outbound firewall allow rule: Core Networking - Multicast Listener Query (ICMPv6-Out)",
+      "Scheduled task with custom binary: %windir%\\system32\\ProvTool.exe /turn 7 /source CellStateChangeTask",
+      "Outbound firewall allow rule: Remote Assistance (TCP-Out)",
+      "Scheduled task with custom binary: %windir%\\system32\\disksnapshot.exe -z",
+      "Outbound firewall allow rule: Core Networking - Internet Group Management Protocol (IGMP-Out)",
+      "Process browser_assistant.exe (PID 1480) running from suspicious path: C:\\Users\\Korisnik\\AppData\\Local\\Programs\\Opera\\assistant\\browser_assistant.exe",
+      "Outbound firewall allow rule: Windows Media Player Network Sharing Service (Streaming-TCP-Out)",
+      "Scheduled task with custom binary: %windir%\\system32\\dmclient.exe utcwnf",
+      "Autorun registry entry: Viber -> \"C:\\Users\\Korisnik\\AppData\\Local\\Viber\\Viber.exe\" AutoStart",
+      "Scheduled task with custom binary: C:\\Program Files (x86)\\Microsoft Office\\root\\VFS\\ProgramFilesCommonX86\\Microsoft Shared\\Office16\\ActionsServer\\ActionsServer.exe wacheck",
+      "Autorun registry entry: Skype for Desktop -> C:\\Program Files (x86)\\Microsoft\\Skype for Desktop\\Skype.exe",
+      "Scheduled task with custom binary: %WINDIR%\\system32\\SecureBootEncodeUEFI.exe",
+      "Outbound firewall allow rule: Windows Media Player Network Sharing Service (qWave-UDP-Out)",
+      "Outbound firewall allow rule: Network Discovery (UPnPHost-Out)",
+      "Outbound firewall allow rule: @{Microsoft.XboxGameCallableUI_1000.17763.1.0_neutral_neutral_cw5n1h2txyewy?ms-resource://Microsoft.XboxGameCallableUI/resources/PkgDisplayName}",
+      "Process ace_engine.exe (PID 12140) opened 60 outbound connections",
+      "Scheduled task with custom binary: BthUdTask.exe $(Arg0)",
+      "Outbound firewall allow rule: Core Networking - IPv6 (IPv6-Out)",
+      "Outbound firewall allow rule: Media Center Extenders - Service (TCP-Out)",
+      "Autorun registry entry: BCSSync -> \"C:\\Program Files\\Microsoft Office\\Office14\\BCSSync.exe\" /DelayServices",
+      "Process AvastSvc.exe (PID 3024) opened 150 outbound connections",
+      "Process ace_engine.exe (PID 12140) running from suspicious path: C:\\Users\\Korisnik\\AppData\\Roaming\\ACEStream\\engine\\ace_engine.exe",
+      "Scheduled task with custom binary: %windir%\\system32\\compattelrunner.exe -maintenance",
+      "Outbound firewall allow rule: Windows Media Player Network Sharing Service (UDP-Out)",
+      "Suspicious process communicating over network",
+      "Outbound firewall allow rule: BranchCache Content Retrieval (HTTP-Out)",
+      "Outbound firewall allow rule: Wireless Portable Devices (UPnPHost-Out)",
+      "Outbound firewall allow rule: Core Networking - Multicast Listener Done (ICMPv6-Out)",
+      "Outbound firewall allow rule: Core Networking - Router Advertisement (ICMPv6-Out)",
+      "Outbound firewall allow rule: File and Printer Sharing (NB-Session-Out)",
+      "Scheduled task with custom binary: %windir%\\system32\\rundll32.exe /d acproxy.dll,PerformAutochkOperations",
+      "Scheduled task with custom binary: C:\\Program Files\\PDF Architect 8\\architect.exe --update --mode check auto notify",
+      "Process Viber.exe (PID 3976) running from suspicious path: C:\\Users\\Korisnik\\AppData\\Local\\Viber\\Viber.exe"
+    ]
+  }
+}
